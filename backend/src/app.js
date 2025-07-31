@@ -17,7 +17,7 @@ app.set("port", PORT);
 
 // Middlewares
 app.use(cors({
-  origin: "https://converzia.onrender.com", // Allow frontend URL
+  origin: "https://converzia-frontend.onrender.com", // Allow frontend URL
 }));
 app.use(express.json({ limit: "40kb" }));
 app.use(express.urlencoded({ extended: true, limit: "40kb" }));
